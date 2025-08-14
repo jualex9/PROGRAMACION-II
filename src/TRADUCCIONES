@@ -1,0 +1,153 @@
+SESION 2-----------------------------------------------------------------------------------------------------------------------
+
+1. Traducción al español (frase completa):
+Describe un producto de supermercado: nombre del producto, precio sin IVA, pregunta si aplica IVA, precio con IVA y existencias.
+
+Desglose palabra por palabra:
+
+Describe → Describe
+a → un / una (en este caso, “un”)
+supermarket → supermercado
+product → producto
+product → producto
+name → nombre
+price → precio
+without → sin
+VAT → IVA (Impuesto al Valor Agregado)
+ask → pregunta / preguntar
+if → si
+VAT → IVA
+applies → aplica / es aplicable
+price → precio
+with → con
+VAT → IVA
+and → y
+stock → existencias / inventario
+
+
+2.Traducción al español (frase completa):
+Información de reserva de habitación de hotel: nombre del huésped, número de días reservados, tarifa diaria (todas las habitaciones tienen la misma tarifa), si la habitación tiene vista al mar y número de habitaciones.
+
+Desglose palabra por palabra:
+
+Hotel → hotel
+room → habitación
+reservation → reserva
+information → información
+guest → huésped
+name → nombre
+number → número
+of → de
+days → días
+reserved → reservados
+daily → diaria
+rate → tarifa / precio
+(all → (todas
+rooms → habitaciones
+have → tienen
+the → la
+same → misma
+rate) → tarifa)
+whether → si (indica condición)
+the → la
+room → habitación
+has → tiene
+an → una
+ocean → océano / mar
+view → vista
+and → y
+number → número
+of → de
+rooms → habitaciones
+
+
+3.Traducción al español (frase completa):
+  Datos demográficos:
+  Almacenar el nombre completo de una persona, edad, altura en metros, sexo (F para femenino y M para masculino) y preguntar si está casado(a) en variables.
+
+  Desglose palabra por palabra:
+
+  Demographic → demográficos
+  data → datos
+  Store → almacenar / guardar
+  a → un / una (en este caso, “el” por contexto)
+  person's → de una persona (posesivo)
+  full → completo
+  name → nombre
+  age → edad
+  height → altura / estatura
+  in → en
+  meters → metros
+  sex → sexo
+  (F → (F
+  for → para
+  female → femenino
+  and → y
+  M → M
+  for → para
+  male) → masculino)
+  and → y
+  ask → preguntar
+  if → si
+  they → ellos / ellas (en este contexto, "esa persona")
+  are → están / es (según contexto, aquí “está”)
+  married → casado(a)
+  in → en
+  variables → variables
+
+4.Traducción al español (frase completa):
+Necesitas calcular el salario que se debe pagar a un trabajador; tienes el número de días trabajados y el valor del día.
+
+Desglose palabra por palabra:
+
+You → tú / usted
+need → necesitas / necesita
+to → (parte del infinitivo, no se traduce directamente)
+calculate → calcular
+the → el
+salary → salario / sueldo
+to → para
+be → ser / estar
+paid → pagado
+to → a
+a → un
+worker → trabajador
+you → tú / usted
+have → tienes / tiene
+the → el
+number → número
+of → de
+days → días
+worked → trabajados
+and → y
+the → el
+value → valor
+of → de
+the → el
+day → día
+
+5.Traducción al español (frase completa):
+Un doctor necesita encontrar el IMC de los pacientes; revisa la fórmula del IMC con tus colegas o en internet.
+
+Desglose palabra por palabra:
+
+A → un / una
+doctor → doctor / médico
+needs → necesita
+to → (parte del infinitivo, no se traduce directamente)
+find → encontrar / hallar
+the → el
+IMC → IMC (Índice de Masa Corporal, en inglés BMI)
+of → de
+patients → pacientes
+check → revisar / comprobar
+the → la
+IMC → IMC
+formula → fórmula
+with → con
+your → tus / sus
+colleagues → colegas / compañeros de trabajo
+or → o
+on → en
+the → el
+internet → internet
