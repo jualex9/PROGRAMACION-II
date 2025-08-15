@@ -1,0 +1,108 @@
+
+sesion 2----------------------------------------------------------------------------------------------------------
+
+1. Memory Space (Espacio de memoria)
+
+En programación, cuando declaras una variable o constante, el computador reserva un espacio en la memoria para almacenar su valor.
+
+Ejemplo: Si declaras int edad = 25;, el computador guarda un número entero (int) en memoria, ocupando un espacio determinado (por ejemplo, 4 bytes en muchos sistemas).
+
+El tamaño depende:
+
+Del tipo de dato (int, double, char, etc.).
+
+De la arquitectura del sistema.
+
+Al finalizar el programa, ese espacio se libera.
+
+Idea clave: Cada variable o constante ocupa memoria y debe tener un nombre para acceder a ella.
+
+2. Strongly Typed (Fuertemente tipado)
+
+Significa que el lenguaje obliga a respetar el tipo de dato de las variables y no permite asignar otro tipo sin conversión explícita.
+
+Ejemplo en un lenguaje fuertemente tipado (Java, C#):
+
+int x = 5;
+x = "Hola"; // ❌ Error
+
+
+Ejemplo en un lenguaje débilmente tipado (JavaScript):
+
+let x = 5;
+x = "Hola"; // ✔️ Permitido
+
+
+Ventaja: Previene errores y da más control.
+
+3. Constants (Constantes)
+
+Son valores que no cambian durante la ejecución.
+
+Se declaran una vez y no pueden modificarse.
+
+Se usan para valores fijos y seguros.
+
+Ejemplo en Java:
+
+final double PI = 3.1416;
+
+4. Good Practices (Buenas prácticas)
+4.1 Naming Styles (Estilos de escritura)
+
+UpperCamelCase → Cada palabra inicia con mayúscula, sin espacios.
+Ej: NombreCompleto — Usado para clases/tipos.
+
+lowerCamelCase → Igual, pero la primera palabra en minúscula.
+Ej: nombreCompleto — Usado para variables/métodos.
+
+SCREAMING_SNAKE_CASE → Todo en mayúsculas con guiones bajos.
+Ej: MAX_USERS — Usado para constantes.
+
+4.2 Be Descriptive (Ser descriptivo)
+
+El nombre debe explicar qué representa.
+
+edadUsuario ✔️
+
+ed ❌
+
+4.3 Clear Prefixes and Suffixes (Prefijos y sufijos claros)
+
+Ayudan a identificar propósito o tipo.
+Ej: contadorClientes, nombreArchivoTxt.
+
+4.4 Do Not Use Abbreviations (No usar abreviaciones)
+
+cantUsr ❌
+
+cantidadUsuarios ✔️
+
+5. Allowed Characters (Caracteres permitidos) & Restrictions (Restricciones)
+
+No accents (Sin acentos)
+años ❌ → anios ✔️
+
+No special characters (Sin caracteres especiales)
+Ej: @, #, %, - ❌
+
+No numbers at the beginning (Sin números al inicio)
+2dias ❌ → dias2 ✔️
+
+No blank spaces (Sin espacios)
+nombre usuario ❌ → nombreUsuario ✔️
+
+Case sensitive (Distinguir mayúsculas/minúsculas)
+edad ≠ Edad
+
+Do not use reserved words (No usar palabras reservadas)
+Ej: class, int, for ❌
+
+📌 Resumen rápido:
+
+Style (Estilo)	Example (Ejemplo)	Common Use (Uso común)
+UpperCamelCase	NombreCompleto	Clases, tipos
+lowerCamelCase	nombreCompleto	Variables, métodos
+SCREAMING_SNAKE_CASE	MAX_USERS	Constantes
+
+-----------------------------------------------------------------------------------------------------------------------------------
