@@ -23,7 +23,7 @@ public class S2EJ3 {
             estatura = sc.nextDouble();
 
             System.out.print("Ingrese el sexo (F/M): ");
-            sexo = sc.next().charAt(0); // Toma solo el primer carácter
+            sexo = sc.next().charAt(0);
 
             System.out.print("¿Está casado? (true/false): ");
             casado = sc.nextBoolean();

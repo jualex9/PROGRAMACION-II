@@ -24,10 +24,11 @@ public class S2EJ1 {
         } else {
             precioConIVA = precioSinIVA;
         }
+
         System.out.println("-----------informacion del producto-----------");
         System.out.println("nombre: " + nombre);
         System.out.println("precio sin iva: " + String.format("%.2f", precioSinIVA));
-        System.out.println("¿aplica IVA? " + (aplicaIVA ? "si" : "no"));
+        System.out.println("el iva aplica" + (aplicaIVA ? "si" : "no"));
         System.out.println("precio con iva: " + String.format("%.2f", precioConIVA));
         System.out.println("stock: " + stock + " inidades");
 
