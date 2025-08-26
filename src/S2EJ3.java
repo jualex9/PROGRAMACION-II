@@ -32,7 +32,7 @@ public class S2EJ3 {
             System.out.println("Nombre completo: " + nombreCompleto);
             System.out.println("Edad: " + edad + " años");
             System.out.println("Estatura: " + estatura + " m");
-            System.out.println("Sexo: " + (sexo == 'F' || sexo == 'f' ? "Femenino" : "Masculino"));
+            System.out.println("Sexo: " + (sexo == 'F' || sexo == 'f' ? "femenino" : "maculino"));
             System.out.println("Estado civil: " + (casado ? "Casado/a" : "Soltero/a"));
 
             sc.close();

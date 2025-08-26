@@ -225,4 +225,169 @@ digit → dígito (carácter numérico; normalmente 0–9)
 
 
 8. Frase completa en español:
-  Si estoy viajando a 10 km/h y lanzo una piedra a una velocidad de 5 km/h, ¿cuál es la velocidad de la piedra desde la perspectiva de un espectador?
+  Si estoy viajando a 10 km/h y lanzo una piedra a una velocidad de 5 km/h, ¿cuál es la velocidad de la piedra desde la perspectiva de un espectador
+
+  SESION 3-------------------------------------------------------------------------------------------------------------------------------------------------
+
+  1.Solicita un dígito por teclado y muestra su valor en palabras en la consola.
+
+    Desglose palabra por palabra:
+
+    Request → Solicita / Pide
+
+    a → un / una (aquí: “un”)
+
+    digit → dígito
+
+    by → por
+
+    keyboard → teclado
+
+    and → y
+
+    display → muestra / despliega
+
+    its → su
+
+    value → valor
+
+    in → en
+
+    words → palabras
+
+    on → en
+
+    the → la
+
+    console → consola
+
+    2. Tienes una nota de 70% y una nota de 30%, ahora debes verificar si ganaste, perdiste o debes recuperar la asignatura.
+
+    Desglose palabra por palabra:
+
+    You → tú / usted
+
+    have → tienes / tiene
+
+    a → una / un
+
+    score → nota / calificación / puntaje
+
+    of → de
+
+    70% → 70%
+
+    and → y
+
+    a → una / un
+
+    score → nota / calificación / puntaje
+
+    of → de
+
+    30% → 30%
+
+    now → ahora
+
+    you → tú / usted
+
+    must → debes / debe
+
+    verify → verificar / comprobar
+
+    if → si
+
+    you → tú / usted
+
+    won → ganaste
+
+    , → ,
+
+    lost → perdiste
+
+    or → o
+
+    you → tú / usted
+
+    must → debes / debe
+
+    recover → recuperar
+
+    the → la
+
+    subject → asignatura / materia
+
+    4.Una persona ganó un acumulado de lotería, ahora debe pagar impuestos según la cantidad ganada: si supera los 100 salarios mínimos debe pagar el 40%, de lo contrario debe pagar el 20%. Muestra en la terminal el total pagado
+
+    5. Traducción fluida:
+    "Vas a solicitar un número desde el teclado y vas a comprobar si el número es par, impar o negativo. Usa las sentencias if, else if y else."
+    Traducción palabra por palabra:
+
+    You’re going to → Vas a
+
+    request → solicitar / pedir
+
+    a number → un número
+
+    from the keyboard → desde el teclado
+
+    and → y
+
+    you’re going to check → vas a comprobar / verificar
+
+    if → si
+
+    the number → el número
+
+    is → es
+
+    even → par
+
+    odd → impar
+
+    or → o
+
+    negative → negativo
+
+    Use → usa
+
+    the if, else if, and else statements → las sentencias if, else if y else
+
+    6.Traducción fluida:
+    "Los días de la semana van desde domingo hasta sábado y están representados por números, donde domingo es el número 1 y sábado es el número 7. Ahora pide un número desde el teclado y muestra el día que representa. Usa un switch."
+    Desglose palabra por palabra:
+SESION 4---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    1."Enseña las vocales al sistema, guárdalas en un arreglo, luego pide una letra desde el teclado y verifica si es una vocal."
+
+    2."Imprime el valor almacenado en la última posición de un arreglo, incluso si se agregan nuevos valores."
+
+      3."Almacena los datos de una persona en un arreglo (nombre, documento y edad), muestra la información en la consola y verifica si es mayor de edad."
+      Store → Almacena
+
+4.Enunciado traducido
+
+  Almacena las donaciones de 9 personas en una lista. Las donaciones fueron hechas en dólares. Recorre la lista, suma los montos y convierte el total a pesos colombianos.
+
+
+  5.Enunciado traducido
+
+    Guarda en una matriz de 6x1 una lista de enteros, luego multiplica la primera posición con la segunda posición y así sucesivamente con las demás. Muestra el resultado.
+
+    📖 Palabra por palabra
+
+
+    6.Guarda 10 notas de un salón de clases, luego recórrerlas en un ciclo y calcula el promedio de los valores almacenados.
+
+
+7. Crea una lista de números enteros positivos y, con el bucle foreach, comprueba si hay números pares
+
+SESION4.1----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Enséñele las vocales al sistema. Este usará una matriz de 2x5. En la primera fila almacenará las letras en minúsculas y en la segunda, las mayúsculas. Luego, solicitará una letra por teclado y comprobará si es una vocal.
+
+2. Almacene una lista de números en una matriz, ahora desea saber cuántos de ellos son pares y cuántos son impares.
+
+3. Almacena una lista de edades en una matriz, ahora quieres saber cuántos de ellos son menores de edad y cuántos son mayores de edad.
+
