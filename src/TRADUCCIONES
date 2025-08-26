@@ -398,3 +398,7 @@ SESION4.1-----------------------------------------------------------------------
 
 
 6. Guarda los números en una lista. Ahora debes iterar y encontrar el primer número primo. Cuando lo encuentres, debes detener el ciclo y mostrarlo en la consola.
+
+SESION5----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1. Crea una lista de salarios de trabajadores en pesos colombianos, envíala como parámetro a un método y cambia esos valores a dólares. Dado que estás usando el concepto de paso por referencia, no deberías devolver el resultado. Desde el método principal, debes iterar por la lista y mostrar los nuevos valores en la consola.
