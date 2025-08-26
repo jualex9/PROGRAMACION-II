@@ -391,3 +391,10 @@ SESION4.1-----------------------------------------------------------------------
 
 3. Almacena una lista de edades en una matriz, ahora quieres saber cuántos de ellos son menores de edad y cuántos son mayores de edad.
 
+
+4. Guarda el alfabeto en una lista y luego imprímelo en la pantalla con una estructura repetitiva. No debe mostrar las vocales. Usa "continuar" para evitarlas.
+
+5. Almacena los nombres de los meses del año sin un orden secuencial. Ahora debe solicitar el nombre de un mes por teclado. Debe verificar el mes solicitado en la lista y, al encontrarlo, detener el ciclo y mostrar en la terminal cuántos ciclos se ejecutaron.
+
+
+6. Guarda los números en una lista. Ahora debes iterar y encontrar el primer número primo. Cuando lo encuentres, debes detener el ciclo y mostrarlo en la consola.
