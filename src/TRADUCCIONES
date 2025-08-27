@@ -402,3 +402,6 @@ SESION4.1-----------------------------------------------------------------------
 SESION5----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Crea una lista de salarios de trabajadores en pesos colombianos, envíala como parámetro a un método y cambia esos valores a dólares. Dado que estás usando el concepto de paso por referencia, no deberías devolver el resultado. Desde el método principal, debes iterar por la lista y mostrar los nuevos valores en la consola.
+
+
+2. Desarrolle una aplicación que calcule el área y el perímetro de un terreno rectangular. Recuerde usar el concepto de responsabilidad única; debe crear dos métodos para realizar los cálculos.
