@@ -1,35 +1,20 @@
-import java.util.Scanner;
-
 public class S5EJ2 {
-
-    // Método para calcular el área
-    public static double calcularArea( double largo, double ancho){
+    public static double calculadorArea(double largo, double ancho){
         return largo * ancho;
     }
-
-    // Método para calcular el perímetro
-    public static double calcularPerimetro(double largo, double ancho) {
-        return 2 * (largo + ancho);
+    public static double calculadorPerimetro(double largo, double ancho){
+        return 2*(largo+ancho);
     }
-
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        double largo = 10;
+        double ancho = 5;
 
-        // Entrada de datos
-        System.out.print("Ingrese el largo del terreno: ");
-        double largo = sc.nextDouble();
+        double area = calculadorArea(largo,ancho);
+        double perimetro = calculadorPerimetro(largo,ancho);
 
-        System.out.print("Ingrese el ancho del terreno: ");
-        double ancho = sc.nextDouble();
+        System.out.println("area: " +area);
+        System.out.println("perimetro: " + perimetro);
 
-        // Uso de los métodos
-        double area = calcularArea(largo, ancho);
-        double perimetro = calcularPerimetro(largo, ancho);
 
-        // Mostrar resultados
-        System.out.println("Área del terreno: " + area + " m²");
-        System.out.println("Perímetro del terreno: " + perimetro + " m");
-
-        sc.close();
     }
 }

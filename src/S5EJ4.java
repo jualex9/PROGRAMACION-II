@@ -1,60 +1,43 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class S5EJ4 {
 
-    // 🔹 Método para encontrar la edad más joven
-    public static int encontrarMenor(ArrayList<Integer> edades) {
-        int menor = edades.get(0);
-        for (int edad : edades) {
-            if (edad < menor) {
-                menor = edad;
-            }
-        }
-        return menor;
-    }
-
-    // 🔹 Método para encontrar la edad más vieja
-    public static int encontrarMayor(ArrayList<Integer> edades) {
-        int mayor = edades.get(0);
-        for (int edad : edades) {
-            if (edad > mayor) {
+ public static int obtenerMenor(int[] edades){
+     int menor = edades[0];
+     for (int edad : edades){
+         if(edad < menor){
+             menor = edad;
+         }
+     }
+     return menor;
+ }
+    public static int obtenerMayor(int[] edades){
+        int mayor = edades[0];
+        for (int edad : edades){
+            if(edad < mayor){
                 mayor = edad;
             }
         }
         return mayor;
     }
 
-    // 🔹 Método para calcular el promedio
-    public static double calcularPromedio(ArrayList<Integer> edades) {
-        int suma = 0;
-        for (int edad : edades) {
-            suma += edad;
-        }
-        return (double) suma / edades.size();
-    }
+
+   public static double obtenerPromedio(int[] edades){
+     int suma = 0;
+     for(int edad : edades){
+         suma += edad;
+     }
+     return (double) suma / edades.length;
+   }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        ArrayList<Integer> edades = new ArrayList<>();
 
-        // Pedimos 10 edades
-        System.out.println("Ingrese 10 edades:");
-        for (int i = 0; i < 10; i++) {
-            System.out.print("Edad " + (i + 1) + ": ");
-            edades.add(sc.nextInt());
-        }
+        int[] edades = {18, 25, 30, 15, 40, 22, 19, 28, 33, 20};
 
-        // Llamamos los métodos
-        int menor = encontrarMenor(edades);
-        int mayor = encontrarMayor(edades);
-        double promedio = calcularPromedio(edades);
+        int menor = obtenerMenor(edades);
+        int mayor = obtenerMayor(edades);
+        double promedio = obtenerPromedio(edades);
 
-        // Mostramos resultados
-        System.out.println("\nEdad más joven: " + menor);
-        System.out.println("Edad más vieja: " + mayor);
-        System.out.println("Promedio de edades: " + promedio);
-
-        sc.close();
+        System.out.println("Edad menor: " + menor);
+        System.out.println("Edad mayor: " + mayor);
+        System.out.println("Edad promedio: " + promedio);
     }
 }
